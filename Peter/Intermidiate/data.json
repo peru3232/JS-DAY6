@@ -69,6 +69,5 @@ const employees = `
     "email": "j.d@test.at",
     "jobTitle": "IT",
     "salary": 0
-
 }]
 `
