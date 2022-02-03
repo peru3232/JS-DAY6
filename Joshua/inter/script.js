@@ -16,9 +16,9 @@ Fill the JSON file with meaningful data for 10 Employees. Print each employee's 
 let mydata = JSON.parse(employees); // convert string into an object
 
 for (let i = 0; i < mydata.length; i++) {
-    document.getElementById("results").innerHTML +=
-        `
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+  document.getElementById("results").innerHTML +=
+    `
+    
         <div class="col">
           <div class="card">
           <div class="card-body">
@@ -28,10 +28,23 @@ for (let i = 0; i < mydata.length; i++) {
             <p class="card-text">Email: ${mydata[i].emailAddress}</p>
             <small class="text-muted">Employee #: ${mydata[i].userId}</small>
             </div>
-            </div>
-          </div>
+            </div>        
         </div>
         `;
 }
+
+for (let i = 0; i < mydata.length; i++) {
+  document.getElementsByTagName("tbody")[0].innerHTML +=
+    `<tr>
+  <th scope="row">${mydata[i].userId}</th>
+  <td>${mydata[i].firstName}</td>
+  <td>${mydata[i].lastName}</td>
+  <td>${mydata[i].jobTitle}</td>
+  <td>${mydata[i].salary}</td>
+  <td>${mydata[i].emailAddress}</td>
+</tr>`
+}
+
+
 
 
