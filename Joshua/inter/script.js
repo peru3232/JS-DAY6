@@ -13,44 +13,25 @@ Fill the JSON file with meaningful data for 10 Employees. Print each employee's 
 
 */
 
-/*
 let mydata = JSON.parse(employees); // convert string into an object
 
-console.log(mydata); // prints converted object into the console
-
-// Prints data from Object1
-
-document.getElementById('results').innerHTML += "My name is " + mydata[0].firstName + " and I am working as a " +
-
-    mydata[0].jobTitle + "<hr>";
-
-// Prints data from Object2
-
-document.getElementById('results').innerHTML += "My name is " + mydata[1].firstName + " and I am working as an " +
-
-    mydata[1].jobTitle + "<hr>";
-
-//Prints data from Object3
-
-document.getElementById('results').innerHTML += "My name is " + mydata[2].firstName + " and I am working as an " +
-
-    mydata[2].jobTitle + "<hr>";
-*/
-
-
-let mydata = JSON.parse(employees); // convert string into an object
-
-/*
 for (let i = 0; i < mydata.length; i++) {
+    document.getElementById("results").innerHTML +=
+        `
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col">
+          <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">${mydata[i].firstName} ${mydata[i].lastName}</h5>
+            <p class="card-text">Job title: ${mydata[i].jobTitle}</p>
+            <p class="card-text">Salary: ${mydata[i].salary}</p>
+            <p class="card-text">Email: ${mydata[i].emailAddress}</p>
+            <small class="text-muted">Employee #: ${mydata[i].userId}</small>
+            </div>
+            </div>
+          </div>
+        </div>
+        `;
+}
 
-    document.getElementById('results').innerHTML += `My name is ${mydata[i].firstName} and I am working as a ${mydata[i].jobTitle}<hr>`;
 
-    }
-*/
-
-    for (let i = 0; i < mydata.length; i++) {
-
-        document.getElementsByClassName('employeeNumber').innerHTML += `${mydata[0].userId}`;
-    
-        }
-    
