@@ -8,6 +8,7 @@ print the following message within the browser: My favorite sandwich is a Hambur
 */
 
 var sand = JSON.parse(sandwiches);
+    
 console.table(sand);
 
 var fri= JSON.parse(fries);

@@ -1,0 +1,83 @@
+let employees = `  [
+    {
+        "userId": "2856",
+        "jobTitle": "Developer",
+        "firstName": "Patrik",
+        "lastName": "Jonathan",
+        "salary": 60000,
+        "emailAddress": "patrik.jonathan@gmail.com"
+    },
+    {
+        "userId": "2982",
+        "jobTitle": "Analyst",
+        "firstName": "Ron",
+        "lastName": "Irani",
+        "salary":85000,
+        "emailAddress": "ronrirani@gmail.com"
+    },
+    {
+        "userId": "2583",
+        "jobTitle": "Actor",
+        "firstName": "Tom",
+        "lastName": "Hanks",
+        "salary":175000,
+        "emailAddress": "tomhanks@gmail.com"
+    },
+    {
+        "userId": "7893",
+        "jobTitle": "Servant",
+        "firstName": "Ben",
+        "lastName": "Woodward",
+        "salary":35000,
+        "emailAddress": "benserves@gmail.com"
+    },
+    {
+        "userId": "2635",
+        "jobTitle": "Boss",
+        "firstName": "Josh",
+        "lastName": "Powell",
+        "salary":240000,
+        "emailAddress": "joshpowell@gmail.com"
+    },
+    {
+        "userId": "6358",
+        "jobTitle": "Musician",
+        "firstName": "Noah",
+        "lastName": "Clough",
+        "salary":75000,
+        "emailAddress": "noahsbutt@gmail.com"
+    },
+    {
+        "userId": "2154",
+        "jobTitle": "Assistant to Boss",
+        "firstName": "Elisabeth",
+        "lastName": "Wifey",
+        "salary":200000,
+        "emailAddress": "wifey@gmail.com"
+    },
+    {
+        "userId": "3254",
+        "jobTitle": "Accountant",
+        "firstName": "TJ",
+        "lastName": "Morris",
+        "salary":80000,
+        "emailAddress": "tommymorris@gmail.com"
+    },
+    {
+        "userId": "0124",
+        "jobTitle": "Driver",
+        "firstName": "Bill ",
+        "lastName": "Bob",
+        "salary":35000,
+        "emailAddress": "billbob@gmail.com"
+    },
+    {
+        "userId": "8745",
+        "jobTitle": "Dancer",
+        "firstName": "Tina",
+        "lastName": "Twirls",
+        "salary":145000,
+        "emailAddress": "tina.twirls@gmail.com"
+    }
+]`
+
