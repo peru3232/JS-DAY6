@@ -1,0 +1,74 @@
+const employees = `
+[{
+    "id": "01",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "j.d@test.at",
+    "jobTitle": "IT",
+    "salary": 3333
+  }, {
+    "id": "02",
+    "firstName": "Marry",
+    "lastName": "Doe",
+    "email": "m.d@test.at",
+    "jobTitle": "IT",
+    "salary": 3666
+  }, {
+    "id": "03",
+    "firstName": "Johnny",
+    "lastName": "Cash",
+    "email": "j.c@test.at",
+    "jobTitle": "Management",
+    "salary": 9999
+  }, {
+    "id": "04",
+    "firstName": "Joshua",
+    "lastName": "Tree",
+    "email": "j.t@test.at",
+    "jobTitle": "Web Developer",
+    "salary": 5555
+  }, {
+    "id": "05",
+    "firstName": "Larry",
+    "lastName": "Flint",
+    "email": "l.f@test.at",
+    "jobTitle": "Marketing",
+    "salary": 6666
+  }, {
+    "id": "06",
+    "firstName": "Johnny",
+    "lastName": "Doe2",
+    "email": "j.d@test.at",
+    "jobTitle": "IT",
+    "salary": 4444
+  }, {
+    "id": "07",
+    "firstName": "Johnny",
+    "lastName": "Doe3",
+    "email": "j.d@test.at",
+    "jobTitle": "IT",
+    "salary": 5555
+  }, {
+    "id": "08",
+    "firstName": "Johnny",
+    "lastName": "Doe4",
+    "email": "j.d@test.at",
+    "jobTitle": "IT",
+    "salary": 7777
+  }, {
+    "id": "09",
+    "firstName": "Johnny",
+    "lastName": "Doe5",
+    "email": "j.d@test.at",
+    "jobTitle": "IT",
+    "salary": 8888
+  }, {
+    "id": "10",
+    "firstName": "Johnny",
+    "lastName": "Doe6",
+    "email": "j.d@test.at",
+    "jobTitle": "IT",
+    "salary": 0
+
+}]
+`
