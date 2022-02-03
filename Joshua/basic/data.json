@@ -1,2 +1,6 @@
-sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
-fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+sandwiches = `{ 
+    "sandwich": "hamburger", 
+    "calories": "260" }`;
+fries = `{ 
+    "fries_size": "Large French Fries", 
+    "calories": "570" }`;

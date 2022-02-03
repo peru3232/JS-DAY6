@@ -1,23 +1,16 @@
+/*
+Basic
+Based on the following two Objects definitions:
+
+var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+print the following message within the browser: My favorite sandwich is a Hamburger which has approximately 260 calories, along with it I enjoy eating Large French Fries which have about 570 calories
+*/
+
 var sand = JSON.parse(sandwiches);
 console.table(sand);
 
 var fri= JSON.parse(fries);
 console.table(fri);
 
-
-
-
-/*
-for (let i = 0; i < arr.length; i++) {
-    document.getElementById("result").innerHTML += `
-  <div class="card m-2" style="width: 18rem;">
-  <img src="${arr[i].img}" class="card-img-top" alt="${arr[i].name}">
-  <div class="card-body">
-    <h5 class="card-title">${arr[i].name}</h5>
-    <p class="card-text">I am working as ${arr[i].jobTitle}.</p>
-  </div>
-</div>
-  `;
-}
-
-*/
+document.getElementById("result").innerHTML+=`My favorite sandwich is a ${sand.sandwich} which has approx. ${sand.calories} calories. Along with it I enjoy eating ${fri.fries_size}, which have around  ${fri.calories} calories.`
