@@ -3,31 +3,31 @@ const books = `
     "title": "Misery",
     "author": "Stephen King",
     "img": "https://images-na.ssl-images-amazon.com/images/I/41iClqry+sL._SX303_BO1,204,203,200_.jpg",
-    "read": "false"
+    "read": false
   }, {
     "title": "PHP Tutorials",
     "author": "Paul Gibbs",
     "img": "https://images-eu.ssl-images-amazon.com/images/I/41jQiQ0MWCL._SY264_BO1,204,203,200_QL40_ML2_.jpg",
-    "read": "false"
+    "read": false
   }, {
     "title": "JavaScript for Web Developers",
     "author": "Matt Frisbie",
     "img": "https://m.media-amazon.com/images/I/61b03PRisyL._AC_UY327_FMwebp_QL65_.jpg",
-    "read": "false"
+    "read": false
   }, {
     "title": "Python 3",
     "author": "Michael Weigend",
     "img": "https://m.media-amazon.com/images/I/91G6b1ZEH0L._AC_UY327_FMwebp_QL65_.jpg",
-    "read": "false"
+    "read": false
   }, {
     "title": "Hamlet",
     "author": "Shakespeare",
     "img": "https://m.media-amazon.com/images/I/51-QKwxfGVL._AC_UY327_FMwebp_QL65_.jpg",
-    "read": "false"
+    "read": false
   }, {
     "title": "Faust I und II",
     "author": "Johann Wolfgang von Goethe",
     "img": "https://m.media-amazon.com/images/I/71cJ8RYXKdL._AC_UY327_FMwebp_QL65_.jpg",
-    "read": "false"
+    "read": false
 }]
 `
