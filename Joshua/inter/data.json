@@ -1,28 +1,4 @@
-let employees = `  [
-    {
-        "userId": "2856",
-        "jobTitle": "Developer",
-        "firstName": "Patrik",
-        "lastName": "Jonathan",
-        "salary": 60000,
-        "emailAddress": "patrik.jonathan@gmail.com"
-    },
-    {
-        "userId": "2982",
-        "jobTitle": "Analyst",
-        "firstName": "Ron",
-        "lastName": "Irani",
-        "salary":85000,
-        "emailAddress": "ronrirani@gmail.com"
-    },
-    {
-        "userId": "2583",
-        "jobTitle": "Actor",
-        "firstName": "Tom",
-        "lastName": "Hanks",
-        "salary":175000,
-        "emailAddress": "tomhanks@gmail.com"
-    },
+let employees = `  [   
     {
         "userId": "7893",
         "jobTitle": "Servant",
@@ -78,6 +54,30 @@ let employees = `  [
         "lastName": "Twirls",
         "salary":145000,
         "emailAddress": "tina.twirls@gmail.com"
+    },
+    {
+        "userId": "2856",
+        "jobTitle": "Developer",
+        "firstName": "Patrik",
+        "lastName": "Jonathan",
+        "salary": 60000,
+        "emailAddress": "patrik.jonathan@gmail.com"
+    },
+    {
+        "userId": "2982",
+        "jobTitle": "Analyst",
+        "firstName": "Ron",
+        "lastName": "Irani",
+        "salary":85000,
+        "emailAddress": "ronrirani@gmail.com"
+    },
+    {
+        "userId": "2583",
+        "jobTitle": "Actor",
+        "firstName": "Tom",
+        "lastName": "Hanks",
+        "salary":175000,
+        "emailAddress": "tomhanks@gmail.com"
     }
 ]`
 
