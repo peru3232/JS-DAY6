@@ -8,7 +8,7 @@ const output = document.getElementById("output");
 // I. fixed Table Head
 let stacked ='' //actual no header
 
-// II. Data from the object:
+// II. Data from the objects: (writing also class book and id to it)
 for (obj in arrBooks) {
     stacked += `
     <div class="card my-3 p-3 books" id="${obj}" style="width: 18rem;">
@@ -21,10 +21,11 @@ for (obj in arrBooks) {
 }
 
 
-// IV. Output on html
+// III. Output on html
 // console.log(stacked);
 output.innerHTML = stacked;
 
+// IV. Functionality to cards...
 //get access to all cards
 const arrCards = document.getElementsByClassName("books");
 
@@ -37,6 +38,7 @@ function toggleReadProperty() {
         this.style.background = 'white';
         arrBooks[this.id].read = false;
     }
+    console.log(`Data from array has changed:\narrBooks[${this.id}].read = ${arrBooks[this.id].read}`)
 }
 
 //add event listener to all cards

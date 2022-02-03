@@ -1,5 +1,5 @@
 //get data from "json":
-const objEmployees = JSON.parse(employees);
+const arrEmployees = JSON.parse(employees);
 
 //bind output
 const output = document.getElementById("output");
@@ -19,16 +19,16 @@ let stacked = `
     </tr>
   </thead>
   <tbody class="bg-warning">`
-// II. Data from the object:
-for (rows of objEmployees) {
+// II. Data from the objects:
+for (obj of arrEmployees) {
     stacked += `
     <tr>
-        <th scope="row">${rows.id}</th>
-        <td>${rows.firstName}</td>
-        <td>${rows.lastName}</td>
-        <td>${rows.email}</td>
-        <td>${rows.jobTitle}</td>
-        <td>${rows.salary}</td>
+        <th scope="row">${obj.id}</th>
+        <td>${obj.firstName}</td>
+        <td>${obj.lastName}</td>
+        <td>${obj.email}</td>
+        <td>${obj.jobTitle}</td>
+        <td>${obj.salary}</td>
     </tr>`
 }
 
